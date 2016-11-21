@@ -22,8 +22,8 @@ $(document).ready(function (){
 
 //Controlador para el inicio del sistema de la escuela
 app.controller('alumnoCtrl', ['$scope', '$http', function($scope, $http) {
-    var url_server = 'http://127.0.0.1:8080/';
-    //var url_server = 'http://192.168.0.100:8080/';
+    //var url_server = 'http://127.0.0.1:8080/';
+    var url_server = 'http://192.168.0.32:8080/';
     //Logearse en el sistema
     var usuario = localStorage.getItem("usuario")///nuevo|
     $scope.usuario = JSON.parse(usuario);//NUEVO
